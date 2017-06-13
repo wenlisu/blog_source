@@ -315,7 +315,7 @@ disqus:
   count: true
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 92115
 
 # Gentie productKey
 #gentie_productKey:
@@ -323,16 +323,16 @@ disqus:
 # changyan
 changyan:
   enable: false
-  appid:
-  appkey:
+  appid: cyt3Qgo6F
+  appkey: 6ff547f74b3a10fc8a204088f0bf475c
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+# youyan_uid: 2136365
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+# livere_uid: 2136365
 
 # Baidu Share
 # Available value:

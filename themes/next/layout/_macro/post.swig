@@ -376,8 +376,8 @@
               </a>
             {% endif %}
           </div>
-
-          <span class="post-nav-divider"></span>
+          <!--
+          <span class="post-nav-divider"></span> -->
 
           <div class="post-nav-prev post-nav-item">
             {% if post.prev %}

@@ -1,4 +1,4 @@
-title: Node+express+mongoose+Layui构建简单管理后台
+title: Node+express+mongoose+Layui构建管理后台(一)
 author: LS
 categories: 手册
 date: 2017-06-12 09:54:17
@@ -7,11 +7,11 @@ tags:
 前言
 =============
 
-这个系统其实是出于学习`nodejs`和`LayuiUI库`的目的而改写的系统，路由控制用`express`，利用`mongodb`来存储，样式用`Layui`。![源码点击这里](https://github.com/wenlisu/qqm-sl)  
+这个系统其实是出于学习`nodejs`和`LayuiUI库`的目的而改写的系统，路由控制用`express`，利用`mongodb`来存储，样式用`Layui`。[源码点击这里](https://github.com/wenlisu/qqm-sl)  
 
 Express 是一个简洁而灵活的 node.js Web应用框架, 提供了一系列强大特性帮助你创建各种 Web 应用，和丰富的 HTTP 工具。
 
-##### 环境：nodeJs、express
+## 环境：nodeJs、express
 
 ```
 Node.js： 8.0.0
@@ -61,7 +61,7 @@ $ node app.js
 ```
 然后在浏览器中打开 http://localhost:3000/ 并查看输出结果。
 
-##### Express应用生成器
+## Express应用生成器
 还有种更加简单快捷的方法就是用express应用生成器。
 通过应用生成器工具 express 可以快速创建一个应用的骨架。
 
@@ -121,4 +121,4 @@ Windows 平台使用如下命令：
 “app.engine('.html', ejs.__express);app.set('view engine', 'html');”
 ```
 
-然后就能识别html文件的页面了!
+然后就能识别html文件的页面了，至此已经搭建完基本环境，接下来就是往里面填代码!
