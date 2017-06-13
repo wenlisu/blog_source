@@ -1,5 +1,6 @@
 title: Node+express+mongoose+Layui构建管理后台(二)
 author: LS
+categories: 手册
 date: 2017-06-13 16:18:55
 tags:
 ---

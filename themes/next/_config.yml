@@ -414,10 +414,10 @@ rating:
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
-leancloud_visitors:
-  enable: false
-  app_id: Uh67retjXYBfmyVhyH2AauBz-gzGzoHsz
-  app_key: 2Etd3DHx5bOxSvjTkcKOGicT
+# leancloud_visitors:
+  # enable: false
+  # app_id: Uh67retjXYBfmyVhyH2AauBz-gzGzoHsz
+  # app_key: 2Etd3DHx5bOxSvjTkcKOGicT
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
