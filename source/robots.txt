@@ -3,7 +3,10 @@ User-agent: *
 
 Allow: /
 Allow: /archives/
-
+Allow: /categories/
+Allow: /about/
+Allow: /archives/
+Allow: /images/
 Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
