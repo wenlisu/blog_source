@@ -44,6 +44,8 @@ if (dom.isIos) {
 
 通过直接跳转iOS/Android APP配置的URL scheme。
 
+![](http://osph37mc5.bkt.clouddn.com/0602.jpg)
+
 ```
 window.location.href = "URL scheme://[host]/[path]?[query];
 ```
