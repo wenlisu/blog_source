@@ -35,7 +35,3 @@ $ hexo generate
 $ hexo deploy
 ```
 Deploys your website.
-
-
-
-
