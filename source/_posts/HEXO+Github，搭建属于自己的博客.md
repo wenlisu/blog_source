@@ -1,7 +1,7 @@
 title: 'HEXO+Github,搭建属于自己的博客'
 categories: 手册
-tags: 
 date: 2017-05-18 10:08:21
+tags:
 ---
 前言
 =============
@@ -172,3 +172,15 @@ $ hexo generate
 $ hexo deploy
 ```
 当执行`hexo deploy`命令部署到GitHub上的内容目录啦，这时候打开`https://wenlisu.github.io`就将是自己的博客地址啦，是不是很方便快捷啊，宝宝们赶紧行动起来吧！
+
+## 更新20180126
+
+* Deployer not found: git  
+在终端执行命令：
+```
+npm install hexo-deployer-git --save
+```
+然后继续执行hexo deploye指令进行部署。
+
+* hexo deploy部署上github后，在github上显示404，但在本地测试正确。  
+极其可能是你的仓库名字有问题，首先你要清楚你的Github的用户名userName，然后这个仓库的名字必须是你的userName.github.io ,仓库名必须跟你的github用户名一致，不然会出现错误404的页面。

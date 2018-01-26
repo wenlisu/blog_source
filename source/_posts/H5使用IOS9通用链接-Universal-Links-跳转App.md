@@ -16,7 +16,7 @@ tags:
 ```
 <meta name='apple-itunes-app' content='app-id=yourAppId'>
 ```
-![](http://osph37mc5.bkt.clouddn.com/0601.PNG)
+![](http://osph37mc5.bkt.clouddn.com/0601.png)
 
 ## 使用iframe
 
@@ -68,7 +68,7 @@ window.location.href = "URL scheme://[host]/[path]?[query];
 - 至少 iOS 9 beta 2 版本 [下载]，这很重要， 因为如果是之前的测试版本你需要做额外的操作。
 - 至少 Xcode 7 beta 2 [下载]
 
-##### apple-app-site-association
+### apple-app-site-association
 
 apple-app-site-association是没有任何后缀名，大小写敏感，上传到需要识别domain服务器根目录下，
 
@@ -109,13 +109,13 @@ paths: 实际上就是限制哪些路径可以唤醒app，哪些路径不能唤�
 
 不过即使报错了，还是不影响跳转的功能，最好配置后试试看能否跳转。
 
-##### 项目配置
+### 项目配置
 
 在项目的Capablities中开启Associated domains。注意domains可以添加多个，前缀必须为applinks:，applinks:后为你的需要识别服务器的域名。
 
 ![](http://osph37mc5.bkt.clouddn.com/0605.png)
 
-##### 验证配置
+### 验证配置
 
 快捷验证，在备忘录中输入https://activities.domain.com/apple-app-site-association，长按这个链接，出现下图提示则配置成功。
 
