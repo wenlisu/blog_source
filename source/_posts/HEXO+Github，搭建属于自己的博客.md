@@ -180,7 +180,7 @@ $ hexo deploy
 ```
 npm install hexo-deployer-git --save
 ```
-然后继续执行hexo deploye指令进行部署。
+ 然后继续执行hexo deploye指令进行部署。
 
 * hexo deploy部署上github后，在github上显示404，但在本地测试正确。  
 极其可能是你的仓库名字有问题，首先你要清楚你的Github的用户名userName，然后这个仓库的名字必须是你的userName.github.io ,仓库名必须跟你的github用户名一致，不然会出现错误404的页面。
