@@ -19,9 +19,15 @@ forever已经out了，严重推荐pm2方式运行nodejs,这是最好的，没有
 
 ## 安装环境
 
-首先远程链接到服务器```ssh -p 22 app@192.168.1.127```,并且全局安装nvm来管理node版本。接着安装pm2.
+首先远程链接到服务器
 
 ```
+ssh -p 22 app@192.168.1.127
+```
+
+并且全局安装nvm来管理node版本。接着安装pm2.
+
+````
 [root@localhost /]# npm install -g pm2
 开始下载安装文件
   │ └── minimist@0.0.8 
@@ -51,7 +57,7 @@ forever已经out了，严重推荐pm2方式运行nodejs,这是最好的，没有
   │   └── amdefine@1.0.0 
   └─┬ vizion@0.2.12 
     └── async@0.9.0 
-```
+````
 
 成功。
 
