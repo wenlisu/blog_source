@@ -84,7 +84,11 @@ pm2启动试试看
  Use `pm2 show <id|name>` to get more details about an app
 ```
 
-执行```pm2 monit```实时监控
+执行
+```
+pm2 monit
+```
+实时监控
 
 ![](http://osph37mc5.bkt.clouddn.com/0701.png)
 
@@ -94,7 +98,7 @@ pm2启动试试看
 
 一般一个服务器我们用不同的端口区别不同的项目地址。这时我们就能用一个json来配置相关端口，环境...
 
-```
+````
 {
   "apps": [
   {
@@ -108,16 +112,20 @@ pm2启动试试看
   {...}
   ]
 }
-```
+````
 
-配置完之后```pm2 start apps.json```pm2启动apps.json
+配置完之后
+```
+pm2 start apps.json
+```
+pm2启动apps.json
 
 ## pm2常用命令
 
 * 列出所有应用
-```
+````
 列出所有应用
-```
+````
 * 启动应用
 ```
 pm2 start appId
