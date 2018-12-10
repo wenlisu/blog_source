@@ -3,6 +3,8 @@ author: LS
 categories: 手册
 date: 2017-06-12 09:54:17
 tags:
+keywords: [NODE, Node, express, mongoose, Layui, 管理后台]
+description: Node+express+mongoose+Layui构建管理后台(一)。
 ---
 前言
 =============

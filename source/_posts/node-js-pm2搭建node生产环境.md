@@ -3,6 +3,8 @@ author: LS
 categories: 手册
 date: 2018-01-29 18:04:47
 tags:
+keywords: [pm2, 部署, forever, nodejs项目, Node]
+description: 使用高大上的pm2代替forever部署nodejs项目。
 ---
 pm2保驾护航
 =========

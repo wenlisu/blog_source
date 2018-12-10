@@ -3,6 +3,8 @@ author: LS
 categories: 手册
 date: 2018-06-11 14:19:41
 tags:
+keywords: [Python]
+description: Python初识。
 ---
 前言
 =========

@@ -27,6 +27,12 @@ $ hexo server
 ```
 Starts a local server. By default, this is at http://localhost:4000/.
 
+### server -d
+```
+$ hexo server -d
+```
+Starts a local server. By default, this is at http://localhost:4000/admin/.
+
 ### deploy
 Each step of the deployment, according to the following three steps to carry out.
 ```

@@ -3,6 +3,8 @@ author: LS
 categories: 手册
 date: 2017-12-08 10:12:27
 tags:
+keywords: [H5, h5, APP, IOS9, 苹果手机, Universal Links, 通用链接, 跳转App]
+description: H5使用IOS9通用链接(Universal Links)跳转App。
 ---
 前言
 =========
