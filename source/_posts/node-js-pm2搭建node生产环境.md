@@ -92,7 +92,7 @@ pm2 monit
 ```
 实时监控
 
-![](http://osph37mc5.bkt.clouddn.com/0701.png)
+![](../images/post/0701.png)
 
 接下来访问该网段下端口为1337的地址就能看见helloworld.js输出的内容了。
 

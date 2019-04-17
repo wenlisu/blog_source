@@ -18,7 +18,7 @@ description: H5使用IOS9通用链接(Universal Links)跳转App。
 ```
 <meta name='apple-itunes-app' content='app-id=yourAppId'>
 ```
-![](http://osph37mc5.bkt.clouddn.com/0601.png)
+![](../images/post/0601.png)
 
 ## 使用iframe
 
@@ -46,7 +46,7 @@ if (dom.isIos) {
 
 通过直接跳转iOS/Android APP配置的URL scheme。
 
-![](http://osph37mc5.bkt.clouddn.com/0602.jpg)
+![](../images/post/0602.jpg)
 
 ```
 window.location.href = "URL scheme://[host]/[path]?[query];
@@ -100,11 +100,11 @@ appID: 格式为 teamID.bundleId形式。
 paths: 实际上就是限制哪些路径可以唤醒app，哪些路径不能唤醒app。
 你可能想知道appID从何而来， 基本上， 它是加入了你的团队标识的 bundle id。你可以从你的 [苹果开发账号页面](https://link.jianshu.com?t=https://developer.apple.com/cn/)，找到Membership选项卡，获取你的团队标识:
 
-![](http://osph37mc5.bkt.clouddn.com/0603.png)
+![](../images/post/0603.png)
 
 也可以使用[苹果的验证网站](https://search.developer.apple.com/appsearch-validation-tool/)，验证文件是否能被苹果请求到。如果是未上线的应用，使用验证网站时可能出现如下提示。
 
-![](http://osph37mc5.bkt.clouddn.com/0604.png)
+![](../images/post/0604.png)
 
 - 出现该提示为apple-app-site-association文件配置正确。
 - 出现404错误码提示，则为apple-app-site-association文件未上传成功，或者使用https://yourdomain.com/apple-app-site-association路径无法访问。
@@ -115,10 +115,10 @@ paths: 实际上就是限制哪些路径可以唤醒app，哪些路径不能唤�
 
 在项目的Capablities中开启Associated domains。注意domains可以添加多个，前缀必须为applinks:，applinks:后为你的需要识别服务器的域名。
 
-![](http://osph37mc5.bkt.clouddn.com/0605.png)
+![](../images/post/0605.png)
 
 ### 验证配置
 
 快捷验证，在备忘录中输入https://activities.domain.com/apple-app-site-association，长按这个链接，出现下图提示则配置成功。
 
-![](http://osph37mc5.bkt.clouddn.com/0606.png)
+![](../images/post/0606.png)
