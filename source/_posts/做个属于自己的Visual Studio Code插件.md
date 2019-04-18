@@ -102,7 +102,7 @@ $ yo code
 {
     "name": "sample"，                        //插件扩展名称（对应创建项目时候的输入）
     "displayName": "sample"，
-    "description": "blog sample"，  //插件扩展的描述（对应创建项目时候的输入）
+    "description": "blog sample"，            //插件扩展的描述（对应创建项目时候的输入）
     "version": "0.0.1"，
     "publisher": "caipeiyu",                 //发布时候的一个名称（对应创建项目时候的输入）
     "categories": [
