@@ -240,4 +240,4 @@ $ vsce publish
 
 [官网](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token)中介绍到如果你想将自己写的扩展分享给更多的人使用就要注册[Azure DevOps organization](https://docs.microsoft.com/zh-cn/azure/devops/organizations/accounts/create-organization?view=azure-devops)的账号.
 
-具体发布步骤根据官网提示顺讯操作即可。
+具体发布步骤根据官网提示顺序操作即可。
