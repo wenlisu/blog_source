@@ -57,7 +57,7 @@ $ yo code
 │   ├── launch.json
 │   ├── settings.json
 │   └── tasks.json
-├── .vscodeignore                //配置不需要加入最终发布到拓展中的文件
+├── .vscodeignore               //配置不需要加入最终发布到拓展中的文件
 ├── README.md
 ├── src                         // 源文件
 │   └── extension.ts            // 如果我们使用js来开发拓展，则该文件的后缀为.js
@@ -100,36 +100,24 @@ $ yo code
 
 ```
 {
-    "name": "sample"，              //插件扩展名称（对应创建项目时候的输入）
+    "name": "sample"，                        //插件扩展名称（对应创建项目时候的输入）
     "displayName": "sample"，
     "description": "blog sample"，  //插件扩展的描述（对应创建项目时候的输入）
     "version": "0.0.1"，
-    "publisher": "caipeiyu",       //发布时候的一个名称（对应创建项目时候的输入）
-    "engines": {
-        "vscode": "^0.10.10"
-    },
+    "publisher": "caipeiyu",                 //发布时候的一个名称（对应创建项目时候的输入）
     "categories": [
         "Other"
     ],
-    "activationEvents": [          //这是我们要理解的地方，是触发插件执行一些代码的配置
-        "onCommand:extension.sayHello" //这种是通过输入命令来触发执行的
+    "activationEvents": [                    //这是我们要理解的地方，是触发插件执行一些代码的配置
+        "onCommand:extension.sayHello"       //这种是通过输入命令来触发执行的
     ],
-    "main": "./out/src/extension",  //这个是配置TypeScript编译成js的输出目录
+    "main": "./out/src/extension",           //这个是配置TypeScript编译成js的输出目录
     "contributes": {
-        "commands": [{             //title 和 command是一个对应关系的
+        "commands": [{                       //title 和 command是一个对应关系的
             "command": "extension.sayHello", //这个是对应上面那个命令触发的，在代码里面也要用到
-            "title": "Hello World"   //这个是我们在vscode里面输入的命令
+            "title": "Hello World"           //这个是我们在vscode里面输入的命令
         }]
     },
-    "scripts": {                     //是在发布打包，或者其他运行时候，要执行的一些脚本命令
-        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install"
-    },
-    "devDependencies": {           //这是开发的依赖包，如果有其他的依赖包，并要打包的话，需要把dev去掉
-        "typescript": "^1.8.5",
-        "vscode": "^0.11.0"
-    }
    }
 ```
 
